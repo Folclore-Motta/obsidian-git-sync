@@ -13,3 +13,5 @@ Espessura da Madeira: 2 cm
 Modelo: Sextavado  
   
 Angulo de corte: 30° graus
+
+#Abelhas #ASF #Marcenaria 
