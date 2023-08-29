@@ -5,5 +5,4 @@
 		- The telephone number 01452 8345654, becomes 01 + 45 + 28 + 34 + 56 + 54 = 218
 		- Depeding on the size of table, may then divide by some constant and take remainder.
 
-Collisions 
 

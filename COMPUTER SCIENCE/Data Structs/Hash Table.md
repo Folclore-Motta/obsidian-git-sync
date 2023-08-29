@@ -33,5 +33,41 @@ Rather than storing just one value we can consider a key:value approach when eac
 Imagine that we want to inset Zoe if we calculate the index for Zoe
 We see that the place that Zoe should occupy it's already taken. So we move to the _next index_ and see that it's also occupied so we repeat the process and go to the _next index_ again and we see that's open so we insert the value there.
 
-Let's take another example with 
+In pseudo-code:
+- Hash the value that we want to insert.
+- Go to the index that correspond to the result number of the hash function.
+- Until the value is not inserted
+	- If it's occupied
+		- Move to the next value
+	- Else
+		- put the value in List[Index] 
 
+In resume if the index is already occupied we have to move one index up seeing if the element is free if it is we put the value there 
+
+<ul style="list-style-type:none; display:flex;">
+
+<li style="margin-right:10px;" >Elemento 0</li>
+
+<li style="margin-right:10px;">Elemento 1</li>
+
+<li style="margin-right:10px;">Elemento 2</li>
+
+<li style="margin-right:10px;">Elemento 3</li>
+
+<li style="margin-right:10px;">Elemento 4</li>
+
+<li style="margin-right:10px;">Elemento 5</li>
+
+<li style="margin-right:10px;">Elemento 6</li>
+
+<li style="margin-right:10px;">Elemento 7</li>
+
+<li style="margin-right:10px;">Elemento 8</li>
+
+<li style="margin-right:10px;">Elemento 9</li>
+
+<li>Elemento 10</li>
+
+</ul>
+
+So finding values will also involve [[Linear Search]]. 
