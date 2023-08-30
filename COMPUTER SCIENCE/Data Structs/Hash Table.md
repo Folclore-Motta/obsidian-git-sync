@@ -1,9 +1,24 @@
 Hash table is a very important Data Structure Widely used
 
-Let's imagine that we have an array of 11 elements
+Let's imagine that we have an array of 6 elements
 
 
-0 -> 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
+<ul style="list-style-type:none; display:flex;">
+
+<li style="margin-right:10px;" >Index<br>0</li>
+
+<li style="margin-right:10px;">Index 1</li>
+
+<li style="margin-right:10px;">Index 2</li>
+
+<li style="margin-right:10px;">Index 3</li>
+
+<li style="margin-right:10px;">Index 4</li>
+
+<li style="margin-right:10px;">Index 5</li>
+
+<li style="margin-right:10px;">Index 6</li>
+</ul>
 
 To calculate the value of a data we have multiple ways In this case let's use an string as example with the string: "Mia".
 
@@ -42,7 +57,8 @@ In pseudo-code:
 - Hash the value that we want to insert.
 - Go to the index that correspond to the result number of the hash function.
 - Until the value is not inserted
-	- If it's occupied
+	- If it's occupiedser we just need to move up some values and then we will find the value that we are searching for.
+
 		- Move to the next value
 	- Else
 		- put the value in that index. 
@@ -64,21 +80,23 @@ In resume if the index is already occupied we have to move one index up seeing i
 <li style="margin-right:10px;">Elemento 5</li>
 
 <li style="margin-right:10px;">Elemento 6</li>
-
-<li style="margin-right:10px;">Elemento 7</li>
-
-<li style="margin-right:10px;">Elemento 8</li>
-
-<li style="margin-right:10px;">Elemento 9</li>
-
-<li>Elemento 10</li>
-
 </ul>
 
-So finding the value later will also involve [[Linear Search]] since the value will not be exactly as it supposed, but closer we just need to move up some values and then we will find the value that we are searching for.
 
+So finding the value later will also involve [[Linear Search]] since the value will not be exactly as it supposed, but close. 
+
+The ratio of the data is know as the Load Factor it could be used to make the array resizable by knowing when Load Factor reached a certain threshold
 $$
 
 Load\ Factor = \frac{Total\ number\ of\ itens\ stored}{Size\ of\ the\ Array}
 
 $$
+
+But in Ideal word every value stored would be in his respective index exactly calculated avoiding collisions making our hash table O(1) to find a value trough. But at the cost of processing to generate the unique output trough the [[Hashing Algorithm]] or needing more memory to deal with more indexes.
+
+We have several Ways of dealing with collision one of them are 
+
+## Chaining
+
+It's the same concept that we have addressed before but this time using [[Linked Lists]]
+Let's take "Mia" again as an example every 
