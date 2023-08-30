@@ -1,4 +1,5 @@
-* Haben
+## Haben
+
 1. Ich habe
 2. Du hast
 3. Er hat
@@ -11,4 +12,20 @@
 eine - um 
 keinen - nenhum
 keinen hunt = nenhum cachorro
+
+## Kaufen
+
+1. Ich kaufe
+2. Du kaufst
+3. Er kauft
+4. Sie kauft
+5. Es kauft
+6. Wir Kaufen
+7. Ihr kauft
+8. Sie kaufen
+
+
+
+
+
 
