@@ -1,6 +1,9 @@
-Hash table is a very important Data Structure Widely used
-
+Hash table is a very important Data Structure Widely used to index large amounts of data
+Addresses of each key calculated using the key itself
+Collisions resolve with open or closed addressing 
+Insertion, deletion and retrieval occur in constante time
 Let's imagine that we have an array of 6 elements
+
 
 
 <ul style="list-style-type:none; display:flex;">
@@ -46,6 +49,10 @@ Rather than storing just one value we can consider a key:value approach when eac
 # Collisions 
 
 ## Open Addressing 
+- Linear Probing
+- Plus 3 rehash
+- Quadratic probing (failed attempts)²
+- Double Hashing
 
 Imagine that we want to insert Zoe and we calculate the index for Zoe but we see that Zoe is already occupied. We can apply some techniques to resolve this problem it depends of the situation
 
@@ -94,7 +101,9 @@ $$
 
 But in Ideal word every value stored would be in his respective index exactly calculated avoiding collisions making our hash table O(1) to find a value trough. But at the cost of processing to generate the unique output trough the [[Hashing Algorithm]] or needing more memory to deal with more indexes.
 
-We have several Ways of dealing with collision one of them are 
+Closed addressing
+
+Avoiding collision at all
 
 ## Chaining
 
