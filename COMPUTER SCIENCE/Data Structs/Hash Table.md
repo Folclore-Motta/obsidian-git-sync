@@ -26,11 +26,16 @@ Ada = (65 + 100 + 97) = 262 Mod 11 = 9
 Then we use the calculate value to perform the a fast array look up
 myData = Array(9);
 
-Rather than storing just one value we can consider a key:value approach when each one of the values has pairs for example **Ada** would be the key and her date of birth the corresponding value, for this reason a hash table key value pairs is referred as **Hash Map**. 
+Rather than storing just one value we can consider a key:value approach when each one of the values has pairs for example **Ada** would be the key and her **date of birth** the corresponding value, for this reason a hash table key value pairs is referred as **Hash Map**. 
 
 # Collisions 
 
-Imagine that we want to inset Zoe if we calculate the index for Zoe
+## Open Addressing 
+
+Imagine that we want to insert Zoe and we calculate the index for Zoe but we see that Zoe is already occupied. We can apply some techniques to resolve this problem it depends of the situation
+
+### Linear Probing
+
 We see that the place that Zoe should occupy it's already taken. So we move to the _next index_ and see that it's also occupied so we repeat the process and go to the _next index_ again and we see that's open so we insert the value there.
 
 In pseudo-code:
@@ -40,9 +45,9 @@ In pseudo-code:
 	- If it's occupied
 		- Move to the next value
 	- Else
-		- put the value in List[Index] 
+		- put the value in that index. 
 
-In resume if the index is already occupied we have to move one index up seeing if the element is free if it is we put the value there 
+In resume if the index is already occupied we have to move one index up seeing if the element is free if it is we put the value there basically using [[Linear Search]] for that.
 
 <ul style="list-style-type:none; display:flex;">
 
@@ -70,4 +75,10 @@ In resume if the index is already occupied we have to move one index up seeing i
 
 </ul>
 
-So finding values will also involve [[Linear Search]]. 
+So finding the value later will also involve [[Linear Search]] since the value will not be exactly as it supposed, but closer we just need to move up some values and then we will find the value that we are searching for.
+
+$$
+
+Load\ Factor = \frac{Total\ number\ of\ itens\ stored}{Size\ of\ the\ Array}
+
+$$
