@@ -99,4 +99,5 @@ We have several Ways of dealing with collision one of them are
 ## Chaining
 
 It's the same concept that we have addressed before but this time using [[Linked Lists]]
-Let's take "Mia" again as an example every 
+Let's take "Mia" again as an example again
+
