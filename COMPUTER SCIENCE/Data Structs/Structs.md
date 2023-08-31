@@ -10,12 +10,12 @@ That means we can create variables of that type using the familiar syntax.
 
 We can also access the various **fields** (also known as **members**) of the structure using the dot operator(*.*)
 
-## Consume and Memory Space
-
-
+## Memory
 
 Structures are created in the [[Memory Stack]] but we can [[Dynamic Memory Allocation|Dynamically Allocate ]] then creating then into the [[Memory Heap]]. We can dynamically allocate structures at run time if your program requires it.
 
 In order to access the fields of your structures in that situation we first need to dereference the pointer to the structure, and then we can access its fields.
 
 That syntax of deference a **field** of a struct is not very clean so we have an specific syntax for that it's the arrow operator -> that does the same as (*value).field
+- First, it dereferences the pointer on the left side of the operator.
+- Second, it accesses the field on the right side of the operator.
