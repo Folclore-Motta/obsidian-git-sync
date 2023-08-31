@@ -21,9 +21,8 @@ if (valid_user_input(x))
 **return** is a instruction that make the function return the specified value that can be used in operations or stored in a variable
 
 In this example we used a function C which have some interesting aspects.
-
-
-In C the functions cannot have predefine values but in languages like python it can be possible
+1. In C the functions cannot have predefine values but in languages like python it can be possible.
+2. 
 
 ```
 print("Test", n='!')
