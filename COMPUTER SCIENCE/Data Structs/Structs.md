@@ -18,4 +18,4 @@ Structures are created in the [[Memory Stack]] but we can [[Dynamic Memory Alloc
 
 In order to access the fields of your structures in that situation we first need to dereference the pointer to the structure, and then we can access its fields.
 
-That syntax of deference a **field** of a struct is not 
+That syntax of deference a **field** of a struct is not very clean so we have an specific syntax for that it's the arrow operator -> that does the same as (*value).field
