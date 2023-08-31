@@ -1,9 +1,14 @@
+- Insertion is a two-step process - hash, then add
+- Deletion is easy - once you find the element
+- Lookup is on average better than with [[Linked Lists]] because you have the benefit of a real-world constant factor
+- Not an ideal data structure if sorting is the goal - just use an array
+- Can run the gamut of size
+
 Hash table is a very important Data Structure Widely used to index large amounts of data
 Addresses of each key calculated using the key itself
 Collisions resolve with open or closed addressing 
 Insertion, deletion and retrieval occur in constante time
 Let's imagine that we have an array of 6 elements
-
 
 
 <ul style="list-style-type:none; display:flex;">

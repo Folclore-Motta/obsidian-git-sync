@@ -1,4 +1,5 @@
 Every recursive function has two cases that could apply, given any input, otherwise it will run forever or until it crashes because because you run out of memory segmentation fault;
+Related to: [[Functions]]
 	The base case, which when triggered will terminate the recursive process.
 	The recursive case, which is where the recursion will actually occur.
 

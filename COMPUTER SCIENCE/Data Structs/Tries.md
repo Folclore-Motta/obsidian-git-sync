@@ -1,0 +1,5 @@
+ - Insertion is complex - a lot of [[Dynamic Memory Allocation]], but gets easier as you go
+ - Deletion is easy - just free a [[Node]]
+ - Lookup is fast - not quite as fast as an [[Arrays|array]], but almost
+ - Already sorted - sorts as you build in almost all situations
+ - Rapidly becomes huge, even with very little data present, not great if space is at premium. 
