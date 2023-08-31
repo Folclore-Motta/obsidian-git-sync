@@ -1,4 +1,4 @@
-When you call a function, the system sets aside space in memory for that function to do its necessary work.
+When you call a [[Functions]], the system sets aside space in memory for that function to do its necessary work.
 	We frequently call such chunks of memory **stack** frames or function frames
 
 More than one function's stack frame may exist in memory at given time. If `main()` calls `move()`, which then calls `direction()`, all three functions have open frames. But just one of these frames you be active despite the fact that all of three of them will have space aside.
