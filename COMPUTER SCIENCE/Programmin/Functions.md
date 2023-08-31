@@ -11,7 +11,7 @@ bool valid_user_input(int x):
 	return 1;
 
 if (valid_user_input(x))
-	printf("Valid Input");
+	exit(EXIT_FAILURE)
 ```
 
 
@@ -22,7 +22,6 @@ if (valid_user_input(x))
 
 In this example we used a function C which have some interesting aspects.
 1. In C the functions cannot have predefine values but in languages like python it can be possible.
-2. 
 
 ```
 print("Test", n='!')
