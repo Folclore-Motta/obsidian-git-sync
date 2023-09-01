@@ -18,7 +18,5 @@ Example:
  int array[50];
  ```
 
-But that also can be allocated [[Dynamic Memory Allocation]] wich will be stored at the [[Memory Heap]]
-
 
 
