@@ -71,6 +71,21 @@ $ pyenv versions
 
 The `*` indicates that the `system` Python version is active currently. You’ll also notice that this is set by a file in your root `pyenv` directory. This means that, by default, you are still using your system Python:
 
+If you try to confirm this using which, you’ll see this:
+
+```$ which python
+/home/realpython/.pyenv/shims/python
+```
+
+This might be surprising, but this is how pyenv works. pyenv inserts itself into your PATH and from your OS’s perspective is the executable that is getting called. If you want to see the actual path, you can run the following:
+
+```
+$ pyenv which python
+/usr/bin/python
+```
+
+If, for example, you wanted to use version 2.7.15, then you can use the global command:
+
 
 
 
