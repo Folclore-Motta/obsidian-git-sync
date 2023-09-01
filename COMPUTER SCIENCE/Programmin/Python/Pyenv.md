@@ -29,9 +29,17 @@ Pyenv lets you do all of these things and more.
 
 ## Installing
 To see all versions of python versions available you can type :
+
 `pyenv install --list | grep " 3\.[678]` 
+
 wich in that case we applied [[Regex]] to filter the result. Once you find the version that you want type:
+]
 `pyenv install -v 3.7.2`
+
+A great way to get peace of mind that the version of Python you just installed is working properly is to run the built-in test suite:
+
+`python -m test`
+
 This will take a while because Pyenv is building from source because of that each version that you have installed is located nicely in your Pyenv root directory:
 
 ```
@@ -62,6 +70,7 @@ $ pyenv versions
 ```
 
 The `*` indicates that the `system` Python version is active currently. You’ll also notice that this is set by a file in your root `pyenv` directory. This means that, by default, you are still using your system Python:
+
 
 
 
