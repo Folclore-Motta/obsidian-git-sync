@@ -1,3 +1,6 @@
+## Definition
+
+## Properties
 - Insertion is a two-step process - hash, then add
 - Deletion is easy - once you find the element
 - Lookup is on average better than with [[Linked Lists]] because you have the benefit of a real-world constant factor
