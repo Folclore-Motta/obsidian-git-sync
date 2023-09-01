@@ -12,6 +12,56 @@ And the PIP need [[Sudo]] permission to install a package because it install thr
 
 ## Why not use the system package manager
 
+By default we always look to the package manager because that the natural way of installing packages in your system but package managers tend to install their packages into the global system space instead of the user space.
+
+## Properties
+
+With these constraints in mind, let’s recap the criteria that would let you install and manage Python versions easily and flexibly:
+
+- Install Python in your user space
+- Install multiple versions of Python
+- Specify the exact Python version you want
+- Switch between the installed versions
+
+Pyenv lets you do all of these things and more.
+
+## Application
+
+## Installing
+To see all versions of python versions available you can type :
+`pyenv install --list | grep " 3\.[678]` 
+wich in that case we applied [[Regex]] to filter the result. Once you find the version that you want type:
+`pyenv install -v 3.7.2`
+This will take a while because Pyenv is building from source because of that each version that you have installed is located nicely in your Pyenv root directory:
+
+```
+$ ls ~/.pyenv/versions/
+2.7.15  3.6.8  3.8-dev
+```
+
+## Removing
+
+All of your versions will be located at ~/.pyenv/versions This is handy because removing these versions is trivial:
+
+`$ rm -rf ~/.pyenv/versions/2.7.15`
+
+Of course Pyenv also provides a command to uninstall a particular Python version:
+
+`$ pyenv uninstall 2.7.15`
+
+## Using
+
+Now that you’ve installed a couple of different Python versions, let’s see some basics on how to use them. First, check what versions of Python you have available:
+
+```
+$ pyenv versions
+* system (set by /home/realpython/.pyenv/version)
+  2.7.15
+  3.6.8
+  3.8-dev
+```
+
+The `*` indicates that the `system` Python version is active currently. You’ll also notice that this is set by a file in your root `pyenv` directory. This means that, by default, you are still using your system Python:
 
 
 
