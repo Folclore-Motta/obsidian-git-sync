@@ -1,0 +1,5 @@
+BLOB // Binary blob
+INTEGER 
+NUMERIC
+REAL
+TEXT
