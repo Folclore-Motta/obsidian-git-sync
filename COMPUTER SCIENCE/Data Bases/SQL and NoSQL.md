@@ -1,6 +1,13 @@
 # Definition
 SQL is a programming language that stands for __"Structured Query Language"__ and follows the relacional schema which means that the tables can relate to each other in various ways and grows vertically.
 
+
+You can use SQL to get the RDBMS some tasks:
+- Create, retrieve, update and delete data.
+- Create and manage databases.
+- Design and create databases tables.
+- Perform administration tasks (security, user management, import/export, etc).
+
 SQL implementations vary between systems
 - Not all RDBMS' follow the SQL standard to a 'T'
 - The concepts are the same but the implementation may vary
@@ -43,8 +50,3 @@ Is a key that's basically made out of two columns
 Structured Query Language (SQL)
 SQL is a language used for interacting with Relational Database Management Systems (RDBMS)
 
-You can use SQL to get the RDBMS some tasks:
-- Create, retrieve, update and delete data.
-- Create and manage databases.
-- Design and create databases tables.
-- Perform administration tasks (security, user management, import/export, etc).
