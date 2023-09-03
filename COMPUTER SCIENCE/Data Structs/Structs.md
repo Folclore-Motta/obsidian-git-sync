@@ -58,3 +58,4 @@ That syntax of deference a **field** of a struct is not very clean so we have an
 - First, it dereferences the pointer on the left side of the operator.
 - Second, it accesses the field on the right side of the operator.
 
+
