@@ -5,3 +5,4 @@
 8:30 Estudar Francês
 10:30 Estudar Alemão
 12:00 Fazer almoço
+13:00

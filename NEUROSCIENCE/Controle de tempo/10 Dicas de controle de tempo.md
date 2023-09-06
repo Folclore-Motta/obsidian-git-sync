@@ -9,3 +9,4 @@
 9. Coloque prazos para todas as suas tarefas e coloque na sua agenda. Use a técnica dividir para conquistar.
 10. Simplifique as suas tarefas, se necessário quebre-a em tarefas menores.
 
+Tendemos a menosprezar tarefas simples, se a ter
