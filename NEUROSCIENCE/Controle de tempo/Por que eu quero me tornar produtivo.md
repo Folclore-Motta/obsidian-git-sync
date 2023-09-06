@@ -7,7 +7,7 @@ Tenho um grande objetivo de vida que sinto que estou deixando-o de lado devido a
 ## 3. Conseguir uma vaga como programador.
 ## 4. Conseguir ter uma vida com a qualidade que eu almejo.
 ## 5. Conseguir fazer as coisas que eu gosto e tenho interesse por.
-## 6. Ter liberdade financeira de fazer o que que eu quero.
+## 6. Conseguir uma vaga como programador e me tornar independente financeiramente.
 
 - Foco
 - Planejamento
