@@ -8,5 +8,3 @@
 8. Existe a hora do trabalho e a hora do lazer. Aja sempre como se estivesse com presa, seu objetivo e ter menos horas de trabalho e o máximo de horas de lazer infelizmente a maioria das pessoas não sabem diferenciar tentando transformar o seu trabalho em lazer. 
 9. Coloque prazos para todas as suas tarefas e coloque na sua agenda. Use a técnica dividir para conquistar.
 10. Simplifique as suas tarefas, se necessário quebre-a em tarefas menores.
-
-Tendemos a menosprezar tarefas simples, se a ter
