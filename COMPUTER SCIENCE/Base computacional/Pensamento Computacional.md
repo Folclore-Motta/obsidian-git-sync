@@ -1,0 +1,4 @@
+Decomposição
+Reconhecimento de padrões
+Abstrações
+Algoritmos
