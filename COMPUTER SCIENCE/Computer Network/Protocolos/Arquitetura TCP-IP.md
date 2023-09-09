@@ -33,3 +33,8 @@ A arquitetura P2P foi pensada no emprego mínimo de servidores, caso exista algu
 
 # Internet
 A camada Internet ou simplesmente camada de rede tem por objetivo permitir que os dados injetados na rede pela máquina de origem possam alcançar destino. O principal protocolo da camada de rede é o IP (Internet Protocol).
+
+TCP (Transmission Control Protocol)
+é um protocolo orientado à conexão e confere confiabilidade
+
+UDP (User Datagram Protocol)
