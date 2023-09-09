@@ -13,6 +13,9 @@ International Organization for Standardization (ISO), um órgão que desenvolve 
 |2. Link de Dados | Quadro |
 |1. Física | Bits |
 
+Da camada 7 a camada 3 são praticamente implementadas em software, por meio de protocolos no sistema operacional ou de aplicações de redes desenvolvidas pelos programadores.
+
+A camada 1 e 2 podem ser associadas à placa de rede. A camada 2 ainda integra um pouco de software, como os drivers da placa de rede, mas a camada 1 é praticamente toda implementada em hardware.
 
 Camada Aplicação:  
   
