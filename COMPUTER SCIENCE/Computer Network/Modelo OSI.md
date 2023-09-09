@@ -1,6 +1,6 @@
 # Definição
 
-O 
+International Organization for Standardization (ISO), um órgão que desenvolve padrões internacionais, criou um modelo de referência de camadas 
 
 
 | Camada | PDU |
@@ -56,3 +56,8 @@ Cada camada adicionara um novo cabeçalho ao dado que será enviado, e esse proc
 
 Esse procedimento acontece, repetidamente, até alcançar a camada 1 e a informação ser transmitida ao destino, onde ocorrerá o processo inverso. A informação subira, desencapsulando as informações, da camada 1 até o usuário do serviço.
 Ao encapsular é criado o PDU
+
+# Protocolo
+É a definição deste procedimento. É o conjunto de normas para a comunicação entre dois equipamentos. Neste exemplo, você utilizou a escrita no idioma português para enviar um recado para outra pessoa que também sabe ler em português, ou seja, vocês falam o mesmo protocolo.
+O protocolo é a implementação do serviço que a camada deve executar.
+# Interface
