@@ -33,13 +33,24 @@ Camada Apresentação:
 • Aumento de performance da transmissão  
 • Processo de criptografia ou cifragem  
 • Compreensão ( Diferente da compreensão no OS)  
-  
+
+[[Camada de Transporte]]
+
+[[Camada de Rede]]
+
+[[Camada de Enlace]]
+
+[[Camada Física]]
+
 Camada de Sessão:  
   
 • Estabelecer, manter e terminar sessões: Permite que dois processos estabeleçam, usem e finalizem uma conexão.  
 • Sincronização: Permite que os processos criem pontos de sincronização de dados. Assim, erros podem ser identificados com mais facilidade, e os dados podem ser re-sincronizados.  
-• Controlhe de Diálogo: Os processos podem escolher iniciar a comunicação entre si em modos half-duplex, simplex ou full-duplex.  
+• Controle de Diálogo: Os processos podem escolher iniciar a comunicação entre si em modos half-duplex, simplex ou full-duplex.  
 
+
+
+por:
 
   
 * Bibiliografia *  
