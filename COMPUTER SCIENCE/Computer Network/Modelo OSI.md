@@ -1,3 +1,8 @@
+# Definição
+
+O 
+
+
 | Camada | PDU |
 | ---------| ------|
 |7. Aplicação| Dados |
@@ -46,3 +51,8 @@ Comunicação e encapsulamente
 
 Comunicação horizontal
 Uma camada só consegue conversar com ela mesma, ou seja a camada 2 do destinatário só consegue se comunicar com a camada 2 do destinatário esse comunicação ocorre de forma virtual. Essas informações denominadas **cabeçalhos**.
+
+Cada camada adicionara um novo cabeçalho ao dado que será enviado, e esse processo e chamado de **encapsulamento**
+
+Esse procedimento acontece, repetidamente, até alcançar a camada 1 e a informação ser transmitida ao destino, onde ocorrerá o processo inverso. A informação subira, desencapsulando as informações, da camada 1 até o usuário do serviço.
+Ao encapsular é criado o PDU
