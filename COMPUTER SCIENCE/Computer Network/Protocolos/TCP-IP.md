@@ -13,6 +13,19 @@ Modelo OSI
 Arquitetura TCP/IP
 Não ficou presa apenas nas funcionalidades, mas ampliou para o desenvolvimento de protocolos relativamente independentes e hierárquicos. A hierarquia baseia-se em um protocolo de nível superior é suportado pelos protocolos de nível inferior.
 
-Pilhada de protocolos TCP/IP
-DNS
+|Serviço| Protocolo | 
+|---------| -------|
+|Web| [[HTTP]], [[HTTPS]] |
+|Correio Eletrônico| [[SMTP]], [[POP]] e [[IMAP]] |
+|Nomes| [[DNS]] |
+|Transferência de arquivos| [[FTP]] e [[TFTP]] |
+|Áudio e vídeo em tempo real| [[RTP]] |
+|Configurações atuomática de estações DHCP| [[DHCP]] |
 
+Os protocolos apresentados são implementados por meio de softwares, que são executados nos diversos dispositivos computacionais, e podem estar associados a dois tipos principais de arquitetura:
+
+Cliente-Servidor
+Na arquitetura cliente-servidor, como já evidencia o nome, existirá um cliente e um servidor. O cliente será executado por um usuário como nós e irá requisitar um serviço do servidor. Por exemplo, para o serviço Web, o cliente é o navegador que acessa determinado servidor, por exemplo, o servidor que está disponibilizando esse conteúdo.
+
+## Par a par (peer-to-peer (P2P))
+A arquitetura P2P foi pensada no emprego mínimo de servidores, caso exista algum. A ideia da arquitetura peer-to-peer é que os usuários possam trocar informações de forma direta. Esse tipo de arquitetura ficou muito conhecida com os programas de compartilhamento de arquivos, mas também pode ser utilizada em outras situações, como em um chat entre duas pessoas.
