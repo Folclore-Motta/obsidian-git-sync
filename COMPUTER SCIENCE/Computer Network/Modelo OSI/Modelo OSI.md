@@ -17,36 +17,35 @@ Da camada 7 a camada 3 são praticamente implementadas em software, por meio de 
 
 A camada 1 e 2 podem ser associadas à placa de rede. A camada 2 ainda integra um pouco de software, como os drivers da placa de rede, mas a camada 1 é praticamente toda implementada em hardware.
 
-Camada Aplicação:  
-  
-•Fornece interface de comunicação entre aplicações e serviços de rede.  
-•Também define processos de autenticação de usuários nas aplicações.  
-•Arquitetura cliente-servidor, habilita usuários (humanos ou sistemas) a acessarem recursos da rede.  
-•A camada de aplicação é crucial, pois permite que aplicações sejam acessadas e executadas em ambiente de rede, incluindo a Web.  
-  
-Camada Apresentação:  
-  
-• Codificação de caracteres  
-• Formatação de Dados  
-• Comunicação entre sistemas diferentes  
-• Segurança e privacidade nas transmissões de dados  
-• Aumento de performance da transmissão  
-• Processo de criptografia ou cifragem  
-• Compreensão ( Diferente da compreensão no OS)  
+# Possibilita acesso aos recursos de rede
+
+[[Camada de Aplicação]]
+
+# Traduzir, criptografar e comprimir dados
+
+[[Camada de Apresentação]]
+
+# Estabelecer, gerenciar e encerrar sessões.
+
+[[Camada de Sessão]]
+
+# Promover a entrega confiável das mensagens processo a processo e recuperação de erros
 
 [[Camada de Transporte]]
 
+# Transferir pacotes de origem no destino; fornecer ligação entre redes.
+
 [[Camada de Rede]]
+
+# Organizar bits e quadros fornecer entrega nó a nó.
 
 [[Camada de Enlace]]
 
+# Transmitir bits através de um meio físico, prover especificações mecânicas e elétricas.
+
 [[Camada Física]]
 
-Camada de Sessão:  
-  
-• Estabelecer, manter e terminar sessões: Permite que dois processos estabeleçam, usem e finalizem uma conexão.  
-• Sincronização: Permite que os processos criem pontos de sincronização de dados. Assim, erros podem ser identificados com mais facilidade, e os dados podem ser re-sincronizados.  
-• Controle de Diálogo: Os processos podem escolher iniciar a comunicação entre si em modos half-duplex, simplex ou full-duplex.  
+
 
 
 
