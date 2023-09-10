@@ -16,9 +16,15 @@ DESCRIBE student;
 
 
 A primary key is NOT NULL and UNIQUE
-/*
-DESCRIBE student;
+
+DESCRIBE student; 
+
 DROP TABLE student;
+
 ALTER TABLE student ADD gpa DECIMAL(3, 2);
+
 ALTER TABLE student DROP COLUMN gpa;
-*/
+
+UPDATE student SET major = 'Something' where major = "Somehting"
+Never forgets the where statement 
+
