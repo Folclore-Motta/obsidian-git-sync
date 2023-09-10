@@ -14,6 +14,8 @@ To see the the columns that our database has
 DESCRIBE student;
 ```
 
+
+A primary key is NOT NULL and UNIQUE
 /*
 DESCRIBE student;
 DROP TABLE student;

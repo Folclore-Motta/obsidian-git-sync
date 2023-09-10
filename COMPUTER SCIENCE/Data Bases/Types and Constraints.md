@@ -7,9 +7,9 @@ DATE -- "YYYY--MM-DD"
 TIMESTAMP -- "YYYY-MM-DD HH:MM:SS" - used for recording actions
 
 You can also constraints apply properties like
-UNIQUE
-NOT NULL
-PRIMARY KEY
+UNIQUE 
+NOT NULL 
+PRIMARY KEY 
 FOREIGN KEY
-
-JOIN
+DEFAULT 'value'
+AUTO_INCREMENT 
