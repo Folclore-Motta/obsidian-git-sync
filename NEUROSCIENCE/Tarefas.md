@@ -17,3 +17,10 @@ Ir para o curso de inglês
 Ir para o curso de francês
 Ir para o projeto Fluent U
 Ir para o projeto de teatro
+Pagar conta de água
+pagar conta de luz
+pagar mensalidade da faculdade
+
+Primeira possibilidade
+Você pretende fazer algo com este item
+`*` no elemento
