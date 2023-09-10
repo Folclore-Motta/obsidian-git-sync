@@ -1,8 +1,13 @@
-6:00 Fazer exercício de respiração.
-6:10 Tomar banho frio e escovar os dentes
-6:20 Fazer e tomar café da manhã
-7:00 Ir para a academia
-8:30 Estudar Francês
-10:30 Estudar Alemão
-12:00 Fazer almoço
-13:00
+Estudar Francês
+Estudar Alemão
+Estudar Inglês
+Estudar matemática
+Fazer projeto Francês
+Fazer projeto Inglês
+Arrumar a cama
+Fazer exercício de respiração
+Lavar a louça
+Passar pano na casa
+Ir para academia
+Ler
+Passear com os cachorros
