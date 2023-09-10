@@ -1,14 +1,27 @@
-# Tarefas Matinais 6:00
+# Tarefas Matinais
 
-Fazer o café da manhã [[BreakFast]]
-Revisar Anki  - 30 minutos 
-Ir para academia - 1h30
-Estudar Francês
-Estudar Alemão
-Aprimorar o vocabulário de inglês adicionar sentenças no Anki
+Exercício de respiração e banho frio - 6:15
+Revisar Anki - 7:00
+Fazer o café da manhã - 7:30
+Ir para academia - 9:00
+Estudar Francês - 10:30
+Estudar Alemão - 11:30
+Aprimorar o vocabulário de inglês adicionar sentenças no Anki - 12:00
+Revisar o celular - 12:10
 
 
 # Tarefas Diurnas
+
+Fazer almoço - 12:40
+Almoçar - 13:00
+Tomar banho - 13:15
+Descer para a parrada - 13:30
+Chegar no curso 15:00
+Inglês - 15:15 - 16:45
+Francês - 17:00 - 18:30
+Chegar em casa - 20:30
+
+
 Estudar matemática
 Fazer projeto Francês
 Fazer projeto Inglês
