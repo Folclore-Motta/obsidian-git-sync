@@ -7,7 +7,7 @@ Parte Externa Tábua: 16,5 cm
 Parte Interna: 11,5 cm
 Espessura da Madeira: 4 cm
 
-Altura do sobreninho e das melgueiras: 7 cm
+Altura do sobre-ninho e das melgueiras: 7 cm
 
 22 cm de largura interna nas melgueiras
 
