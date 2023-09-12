@@ -42,3 +42,8 @@ UPDATE student SET major = 'Something' WHERE major = "Something"
 
 DELETE FROM students WHERE student_id = 5;
 ```
+
+-- <, >, <=, >=, =, <>, AND, OR
+
+IN
+
