@@ -1,4 +1,5 @@
 # The magicians book
+hierarchy
 Eccentric
 Remarks
 Unattainability
