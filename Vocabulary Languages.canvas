@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"7da705fefd7a00b8","x":-194,"y":324,"width":400,"height":400,"type":"file","file":"LANGUAGES/English/Vocabulary/Vegetables.md"},
+		{"id":"f69156b6bf6bc375","x":-86,"y":-460,"width":400,"height":480,"type":"file","file":"LANGUAGES/English/Vocabulary/Kitchen.md"}
+	],
+	"edges":[]
+}
