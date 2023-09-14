@@ -1,5 +1,25 @@
-To create a table in SQL
+# CREATE
 
+The command create is responsible to create databases and tables in SQL
+
+To create a database:
+
+`CREATE DATABASE [database_name] IF NOT EXISTS;`
+
+Example:
+
+```CREATE DATABASE School IF NOT EXISTS;```
+
+You have to be careful creating a DATABASE because if it already exists will be overwrite.
+
+To create a table:
+
+The syntax is:
+`CREATE TABLE [table_name]`(
+[[Types and Constraints]]...
+);
+
+Example:
 ```SQL
 CREATE TABLE student (
 	student_id INT AUTO_INCREMENT,
@@ -9,27 +29,13 @@ CREATE TABLE student (
 );
 ```
 
-A primary key is NOT NULL and UNIQUE
+A primary key has both NOT NULL and UNIQUE constraints 
 
 To see the the columns that our database has
 ```SQL
 DESCRIBE student;
 ```
 
-Manipulation TABLES
-
-```SQL
-DESCRIBE student; 
-
-DROP TABLE student;
-
-ALTER TABLE student ADD gpa DECIMAL(3, 2);
-
-ALTER TABLE student DROP COLUMN gpa;
-
-ALTER TABLE student RENAME COLUMN birth_day TO birth_date; 
-
-```
 
 Manipulation DATA inside the tables
 
