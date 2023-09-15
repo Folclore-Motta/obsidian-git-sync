@@ -42,6 +42,7 @@ pea - the plural is with z
 pumpkin
 ginger
 potato
+lettuce
 
 
 Nuts
