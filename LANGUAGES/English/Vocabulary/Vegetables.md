@@ -43,6 +43,8 @@ pumpkin
 ginger
 potato
 lettuce
+Okra
+Zucchini
 
 
 Nuts
