@@ -1,4 +1,6 @@
 
+# Insert
+
 To insert data in the columns you need to specify the table that you want and also the columns, but the columns are opcional because you can insert in the order that the variables are in the table.
 
 Syntax to insert in the table:
@@ -24,6 +26,8 @@ INSERT INTO students(name, major) VALUES
 
 #TODO
 Explain that we have orders of insertion because of the relations
+
+# Update
 
 UPDATE student SET major = 'Something' WHERE major = "Something"
 /*Never forgets the WHERE statement*/
