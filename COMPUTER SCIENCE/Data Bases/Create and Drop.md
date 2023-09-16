@@ -41,4 +41,4 @@ CREATE TABLE student (
 
 Now if we want to drop those tables 
 
-Now that we created our table wee need to insert that into it through [[Insert and Delete]].
+Now that we created our table wee need to insert that into it through [[Insert, Update and Delete]].
