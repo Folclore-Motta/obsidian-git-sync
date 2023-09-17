@@ -42,12 +42,24 @@ CREATE TABLE student (
 
 # Alter
 
+# TO DO
+
+
 ```SQL
 ALTER TABLE transactions
 DROP INDEX customer_id;
 ```
-  
+
 ```SQL
+
+DROP TABLE student;
+
+ALTER TABLE student ADD gpa DECIMAL(3, 2);
+
+ALTER TABLE student DROP COLUMN gpa;
+
+ALTER TABLE student RENAME COLUMN birth_day TO birth_date; 
+
 ALTER TABLE transactions
 MODIFY amount DECIMAL(3,2);
 ```

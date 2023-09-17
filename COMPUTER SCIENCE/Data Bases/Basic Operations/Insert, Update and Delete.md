@@ -29,6 +29,8 @@ Explain that we have orders of insertion because of the relations
 
 # Update
 
+#TODO
+
 The command update allow us to change the information that we have previously inserted in the table.
 
 Syntax:
