@@ -80,7 +80,15 @@ SELECT
 ```SQL
 SELECT * FROMS Student WHERE major IN ('Biology', 'Chemistry');
 ```
-# Count
 
+# Functions
+## Count
 
-## 
+## Distinct
+
+## Avg
+
+## Sum
+
+# Group By
+
