@@ -67,6 +67,10 @@ SELECT name, major FROM Students WHERE major="Biology";
 SELECT name
 ```
 
+# Like
+
+And if you want to use [[Regex]] in the search 
+
 # Count
 
 
