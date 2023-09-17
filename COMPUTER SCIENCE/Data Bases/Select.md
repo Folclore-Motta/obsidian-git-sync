@@ -14,11 +14,22 @@ Example:
 SELECT student_name FROM Students;
 ```
 
+To get all the rows from a table we use a * which means everything see [[Regex]]
+
+```SQL
+SELECT * FROM Students;
+```
+
+You can also specify the table that you are getting the information from, becomes very helpful with more 
+
 ## Order by
+
+### desc
+### asc
 
 ## Limit 
 
-## Count()
+## Count
 
 
 ## 
