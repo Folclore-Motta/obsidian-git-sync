@@ -32,7 +32,7 @@ To see all versions of python versions available you can type :
 
 `pyenv install --list | grep " 3\.[678]` 
 
-wich in that case we applied [[Regex]] to filter the result. Once you find the version that you want type:
+wich in that case we applied [[Wildcards]] to filter the result. Once you find the version that you want type:
 `pyenv install -v 3.7.2`
 
 A great way to get peace of mind that the version of Python you just installed is working properly is to run the built-in test suite:

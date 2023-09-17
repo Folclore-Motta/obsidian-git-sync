@@ -14,7 +14,7 @@ Example:
 SELECT student_name FROM Students;
 ```
 
-To get all the rows from a table we use a * which means everything see [[Regex]]
+To get all the rows from a table we use a * which means everything see [[Wildcards]]
 
 ```SQL
 SELECT * FROM Students;
@@ -69,7 +69,7 @@ SELECT name
 
 # Like
 
-And if you want to use [[Regex]] in the search you have to use **Like** and **Where**
+And if you want to use [[Wildcards]] in the search you have to use **Like** and **Where**
 
 ```SQL
 SELECT 
@@ -97,4 +97,39 @@ Those are predefined functions in SQL to see the definition of [[Functions]].
 
 A feature to display data in groups aggregating all rows by a specific column often used with aggregate functions ex: `SUM(), MAX(), MIN(), AVG(), COUNT()`
 
+```SQL
+SELECT SUM(amount), order_date
+FROM transactions GROUP BY order_date;
+
+  
+
+SELECT MAX(amount), order_date
+FROM transactions GROUP BY order_date;
+
+  
+
+SELECT MIN(amount), customer_id
+
+FROM transactions
+
+GROUP BY customer_id;
+
+  
+
+SELECT COUNT(amount), order_date
+
+FROM transactions GROUP BY order_date;
+
+  
+
+SELECT AVG(amount), customer_id
+
+FROM transactions
+
+GROUP BY customer_id
+
+HAVING COUNT(amount) > 1 AND customer_id IS NOT NULL;
 ```
+
+
+If you attempt to use WHERE count you'll run into a error instead use the word having you do the same thing
