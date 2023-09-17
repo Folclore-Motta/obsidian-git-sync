@@ -82,6 +82,8 @@ SELECT * FROMS Student WHERE major IN ('Biology', 'Chemistry');
 ```
 
 # Functions
+
+Those are predefined functions in SQL to see the definition of [[Functions]].
 ## Count
 
 ## Distinct
@@ -90,5 +92,9 @@ SELECT * FROMS Student WHERE major IN ('Biology', 'Chemistry');
 
 ## Sum
 
+
 # Group By
 
+A feature to display data in groups aggregating all rows by a specific column often used with aggregate functions ex: `SUM(), MAX(), MIN(), AVG(), COUNT()`
+
+```
