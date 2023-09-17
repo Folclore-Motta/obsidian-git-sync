@@ -81,18 +81,6 @@ SELECT
 SELECT * FROMS Student WHERE major IN ('Biology', 'Chemistry');
 ```
 
-# Functions
-
-Those are predefined functions in SQL to see the definition of [[Functions]].
-## Count
-
-## Distinct
-
-## Avg
-
-## Sum
-
-
 # Group By
 
 A feature to display data in groups aggregating all rows by a specific column often used with aggregate functions ex: `SUM(), MAX(), MIN(), AVG(), COUNT()`
@@ -137,3 +125,16 @@ GROUP BY customer_id
 
 HAVING COUNT(amount) > 1 AND customer_id IS NOT NULL;
 ```
+
+# Union
+
+Combine the results of two or more select statements. 
+
+
+
+For **union** perform the tables that we're getting the data from must have the same amount of columns. To fix that we could specify only the columns that we want in the same number to avoid any error.
+
+## Union all
+
+The difference of Union and Union all are minimum but we can't ignore. Imagine that we have the same data but in different tables and we want to perform a Union in those tables what will happen is that union will ignore the duplicate data show us just one occurrence. With **Union All** this will not occur showing the value twice one from each table.
+
