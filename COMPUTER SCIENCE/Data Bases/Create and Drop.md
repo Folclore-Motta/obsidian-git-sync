@@ -8,7 +8,7 @@ The command create is responsible to create databases and tables in SQL
 Syntax to create a database:
 
 ```
-CREATE DATABASE [database_name] IF NOT EXISTS;`
+CREATE DATABASE [database_name] IF NOT EXISTS;
 ```
 
 Example:
@@ -41,6 +41,23 @@ CREATE TABLE student (
 );
 ```
 
-Now if we want to drop those tables 
+# Drop
 
-Now that we created our table wee need to insert that into it through [[Insert, Update and Delete]].
+We can delete databases and tables using drop
+
+Syntax:
+
+```
+DROP DATABASE [database_name];
+DROP TABLE [table_name];
+```
+
+Example
+
+```SQL
+DROP DATABASE Schoo; 
+DROP TABLE students;
+```
+
+
+Now that we know how to created our table we need to insert information in for that  [[Insert, Update and Delete]].
