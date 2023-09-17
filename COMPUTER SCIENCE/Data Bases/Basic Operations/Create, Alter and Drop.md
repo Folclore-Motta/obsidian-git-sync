@@ -41,6 +41,17 @@ CREATE TABLE student (
 ```
 
 # Alter
+
+```SQL
+ALTER TABLE transactions
+DROP INDEX customer_id;
+```
+  
+```SQL
+ALTER TABLE transactions
+MODIFY amount DECIMAL(3,2);
+```
+
 # Drop
 
 We can delete databases and tables using drop
