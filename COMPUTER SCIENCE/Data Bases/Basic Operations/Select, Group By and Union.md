@@ -122,6 +122,13 @@ FROM transactions GROUP BY order_date;
 
   
 
+
+```
+
+
+If you attempt to use WHERE count you'll run into a error instead use the word having you do the same thing
+
+```SQL
 SELECT AVG(amount), customer_id
 
 FROM transactions
@@ -130,6 +137,3 @@ GROUP BY customer_id
 
 HAVING COUNT(amount) > 1 AND customer_id IS NOT NULL;
 ```
-
-
-If you attempt to use WHERE count you'll run into a error instead use the word having you do the same thing
