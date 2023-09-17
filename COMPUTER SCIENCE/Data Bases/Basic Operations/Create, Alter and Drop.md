@@ -40,6 +40,7 @@ CREATE TABLE student (
 );
 ```
 
+# Alter
 # Drop
 
 We can delete databases and tables using drop

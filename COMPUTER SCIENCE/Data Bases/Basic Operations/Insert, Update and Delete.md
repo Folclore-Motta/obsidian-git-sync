@@ -67,6 +67,6 @@ Example:
 DELETE FROM students WHERE student_id = 5;
 ```
 
-To **Delete, Insert and Update** we presume that you have already created the tables for that you may check [[Create and Drop]].
+To **Delete, Insert and Update** we presume that you have already created the tables for that you may check [[Create, Alter and Drop]].
 
 But know that we have data inside of our tables we might get the information back to us for that check [[Select]].
