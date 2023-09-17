@@ -1,9 +1,8 @@
-
 # Create
 
 The command create is responsible to create databases and tables in SQL
 
-# Create Database
+## Create Database
 
 Syntax to create a database:
 
@@ -19,7 +18,7 @@ CREATE DATABASE School IF NOT EXISTS;
 
 You have to be careful creating a DATABASE because if it already exists will be overwrite.
 
-# Creating Tables
+## Creating Tables
 
 ```
 CREATE TABLE [table_name](
