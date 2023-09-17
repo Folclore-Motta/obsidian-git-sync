@@ -69,8 +69,17 @@ SELECT name
 
 # Like
 
-And if you want to use [[Regex]] in the search 
+And if you want to use [[Regex]] in the search you have to use **Like** and **Where**
 
+```SQL
+SELECT 
+```
+
+# IN, OR, AND
+
+```SQL
+SELECT * FROMS Student WHERE major IN ('Biology', 'Chemistry');
+```
 # Count
 
 
