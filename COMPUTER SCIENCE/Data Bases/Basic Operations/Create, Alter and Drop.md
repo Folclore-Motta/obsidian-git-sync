@@ -40,6 +40,9 @@ CREATE TABLE student (
 );
 ```
 
+## Foreign Key and Primary Key
+
+
 # Alter
 
 # TO DO
