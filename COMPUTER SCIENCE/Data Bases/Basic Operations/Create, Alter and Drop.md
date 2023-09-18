@@ -24,6 +24,7 @@ You have to be careful creating a DATABASE because if it already exists will be 
 CREATE TABLE [table_name](
 Variable_name Type Constraints...
 PRIMARY KEY(variable)
+FOREING KEY(variable) REFERENCES table_name(variable)
 );
 ```
 
@@ -36,13 +37,11 @@ CREATE TABLE student (
 	student_id INT AUTO_INCREMENT,
     name VARCHAR(20) NOT NULL,
     major VARCHAR(20) DEFAULT 'undecided'
+    mensal_bill DECIMAL(5,2)
     PRIMARY KEY(student_id)
+    FOREING KEY(mensal_bill) REFERENCES student_loams(mensal_bill);
 );
 ```
-
-## Foreign Key and Primary Key
-
-
 # Alter
 
 # TO DO
