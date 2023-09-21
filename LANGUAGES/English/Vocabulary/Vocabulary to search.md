@@ -13,6 +13,12 @@ cuddle
 console
 involve
 confide
+crave
+tiptoe
+inconvenience
+relieve
+accomodate
+
 # The magicians book
 hierarchy
 Eccentric
