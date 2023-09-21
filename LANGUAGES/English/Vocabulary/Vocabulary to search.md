@@ -9,8 +9,10 @@ hetic
 reassure
 Shivering
 Tackle
-
-
+cuddle
+console
+involve
+confide
 # The magicians book
 hierarchy
 Eccentric
