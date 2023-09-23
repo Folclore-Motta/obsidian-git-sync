@@ -8,6 +8,8 @@
 - Can run the gamut of size
 
 Hash table is a very important Data Structure Widely used to index large amounts of data
+
+
 Addresses of each key calculated using the key itself
 Collisions resolve with open or closed addressing 
 Insertion, deletion and retrieval occur in constante time
