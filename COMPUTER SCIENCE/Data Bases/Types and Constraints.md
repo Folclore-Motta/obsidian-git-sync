@@ -14,7 +14,6 @@ BIGINT
 
 DECIMAL 
 FLOAT
-
 # Time
 DATE
 TIME

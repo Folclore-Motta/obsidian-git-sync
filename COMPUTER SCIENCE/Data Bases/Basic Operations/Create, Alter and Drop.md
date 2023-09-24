@@ -2,6 +2,16 @@
 
 The command create is responsible to create databases and tables in SQL
 
+One other important consideration when constructing a table in SQL is to choose one column to be your primary key.
+
+Primary key enable rows of a table to uniquely and quickly
+identified.
+- Choosing your primary key appropriately can make subsequent operations on the table much easier.
+
+It's also possible to establish a joint primary key appropriately can make subsequent operations on the table much easier.
+
+It is also possible to establish a joint primary key - a combination of two columns that is always guaranteed to be unique.  One of columns might have the same value as other but both columns can't have the same value of other both columns
+
 ## Create Database
 
 Syntax to create a database:
