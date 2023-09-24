@@ -1,4 +1,5 @@
 ## Definition
+
 Pyenv is a tool to isolate the versions of python and that you have by default most of OS come with a pre installed version in UNIX systems you can check by `which python` that will return the path for the binary usually located at  `/usr/bin/python` which means that it will be available through the whole system and int the most of the cases it will not be the lasted version to make sure that system won't break.
 
 ## Application
