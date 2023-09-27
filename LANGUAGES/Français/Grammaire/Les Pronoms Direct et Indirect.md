@@ -38,14 +38,6 @@ Tu vois **les** enfants sur la plage ? (élément défini, précis)
 Paul, tu prends ton manteau?
 - Oui, Je le prende.
 - Non, Je ne le prende pas.
-
-
-
-
-
-
-
-
 # COI
 
 Le pronom COI (indirect): il répond à la question À QUI ou À QUOI
