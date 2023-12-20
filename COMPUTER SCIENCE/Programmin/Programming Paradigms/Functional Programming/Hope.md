@@ -1,4 +1,4 @@
-Exercicíos
+sExercicíos
 ```
 1.
 	dec suc: num -> num;
