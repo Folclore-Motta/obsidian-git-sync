@@ -1,4 +1,4 @@
-The init constructor is a [[Methods|Magic Method]] that inicialize a Class by executing the block of code that's inside of the `__init__` method every time that you instanced a class.
+The init constructor is a [[Instance Method|Magic Method]] that inicialize a Class by executing the block of code that's inside of the `__init__` method every time that you instanced a class.
 
 ```Python
 class Item:
@@ -29,4 +29,6 @@ Class Item:
 The **quantity** argument has type integer but it's not required to specify since we pre-defined it as 0. Python understands that it's an integer type argument.
 
 But still not enough the a good practice is to also check the values passed than their data type using assert making sure that everything is fine and controlled.
+
+
 

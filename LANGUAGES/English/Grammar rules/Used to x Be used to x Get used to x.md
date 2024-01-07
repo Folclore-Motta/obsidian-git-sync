@@ -57,4 +57,3 @@ I started the job two months ago. I'm still getting used to everything there is 
 
 My girlfriend wears this really powerful perfume. I just can't get used to the smell.
 
-T

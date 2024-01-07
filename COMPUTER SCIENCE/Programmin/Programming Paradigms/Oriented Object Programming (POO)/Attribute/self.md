@@ -1,4 +1,3 @@
-
 # Definition
 
 Self refers to the instance itself when we declare item = Item():
@@ -19,8 +18,7 @@ item = Item("Phone", 100, 10)
 print(item.total_price(100, 10))
 ```
 
-As you can see the [[Constructor `__init__`]] and every other [[Methods]]
-that we create inside of a class requires a **self** argument but it's not passed direct inside the brackets. The self argument is passed when we instanced the class as the name of the instance. Just to exemplify it would be like this
+As you can see the [[Constructor `__init__`]] and every other [[Instance Method]] that we create inside of a class requires a **self** argument but it's not passed direct inside the brackets. The self argument is passed when we instanced the class as the name of the instance. Just to exemplify it would be like this
 
 ```Python
 Class Item:
@@ -37,7 +35,7 @@ item = Item()
 
 And if we created other instance called banana we would substitute every **self** argument value for banana.
 
-Another aspect of self is that the [[Attributes]] that we have inside the class are available trough the whole class so we don't have to ask for them in the parameters like we did in the `total_price()` method.
+Another aspect of self is that the [[Instance Attribute]] that we have inside the class are available trough the whole class so we don't have to ask for them in the parameters like we did in the `total_price()` method.
 
 ```Python
 Class Item:
@@ -53,3 +51,4 @@ item = Item("Phone", 100, 10)
 print(item.total_price())
 ```
 
+Notice that naming these parameters self and cls is just a convention. You could just easily name them `the_object` and the `the_class` and get the same result. All that matters is that they're positioned in the first parameter list for the method.

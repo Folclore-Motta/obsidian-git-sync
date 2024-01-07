@@ -1,0 +1,1 @@
+Abstract classes exist to be inherited, but never instantiated. 
